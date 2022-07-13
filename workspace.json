@@ -5,5 +5,6 @@
     "host-e2e": "apps/host-e2e",
     "test": "apps/test",
     "test-e2e": "apps/test-e2e"
-  }
+  },
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json"
 }
