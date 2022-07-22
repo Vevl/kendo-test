@@ -6,13 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'host';
-  public listItems: Array<string> = [
-    'X-Small',
-    'Small',
-    'Medium',
-    'Large',
-    'X-Large',
-    '2X-Large',
+  data = [
+    {
+      text: 'My Profile',
+    },
+    {
+      text: 'Friend Requests',
+    },
+    {
+      text: 'Account Settings',
+    },
+    {
+      text: 'Support',
+    },
+    {
+      text: 'Log Out',
+    },
   ];
 }

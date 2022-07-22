@@ -1,7 +1,10 @@
-<test-kendo-nx-welcome></test-kendo-nx-welcome> <router-outlet></router-outlet>
-<div class="example-wrapper">
-      <kendo-combobox
-        [data]="listItems"
-        placeholder="T-shirt size"
-      ></kendo-combobox>
-    </div>
+<div class="k-block">
+  <div class="heading">
+    <h2>Shell component</h2>
+  </div>
+  <kendo-dropdownbutton [data]="data">
+    Shell dropdown
+  </kendo-dropdownbutton>
+</div>
+
+<router-outlet></router-outlet>
